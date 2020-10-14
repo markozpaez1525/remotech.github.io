@@ -1,0 +1,527 @@
+
+body {
+    font-size: 16px;
+    font-weight: 500;
+    position: relative
+}
+
+body, a, p, span, li,
+h1, h2, h3, h4, h5, h6, legend {
+	font-family: 'Kumbh Sans', sans-serif;
+}
+
+ul, ol {
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+#logo {
+	margin-top: -5px;
+}
+
+.mt-20 {
+	margin-top: 20px !important;
+}
+
+.mt-40 {
+	margin-top: 40px !important;
+}
+
+.mt-60 {
+	margin-top: 60px !important;
+}
+
+/* Classes */
+.navbar {
+	padding: 0.8rem 1rem;
+	background-color: #000 !important;
+	color: #fff !important;
+}
+.navbar-nav {
+	margin-right: 100px;
+	height: 50px;
+}
+.nav-link {
+	color: #fff !important;
+}
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.nav-mobile {
+	display: none;
+}
+
+.navbar-toggler {
+	background-color: #fff !important;
+	border: 1px solid #fff !important;
+} 
+
+.container-fluid {          
+	background-size: cover;
+	padding-right: 0px;
+    padding-left: 0px;
+}
+
+.badge {
+    padding: .3em .4em;
+    font-size: 80%;
+    line-height: 1.2;
+}
+
+.fieldset-career{
+    padding: 0 1.4em 1.4em 1.4em !important;
+    margin: 0 0 1.5em 0;
+	box-shadow: 0 0 20px 6px rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	background-color: #fff;
+	border-radius: 10px;
+	
+}
+.fieldset-legend {
+	font-size: 1.7em !important;
+	font-weight: bold !important;
+	text-align: left !important;
+	width:auto;
+	padding:7px 30px;
+	border-left: solid 10px #000;
+	border-radius: 5px;
+	border-bottom:none;
+	background-color: #fff;
+	box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.carousel-indicators {
+	margin-bottom: 0rem !important;
+}
+.carousel-indicators li {
+	background-color: black !important;
+}
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+	margin-bottom: 0px;
+	height: 50px !important;
+	width: 50px !important;
+}
+.img-carousel-item {
+	width: 850px;
+	height: 500px;
+	box-shadow: 0 0 100px rgba(0, 0, 0, 1);
+}
+.img-carousel-title {
+	position: absolute;
+	top: 30%;
+	left: 30%;
+	right: 30%;
+	text-align: center;
+}
+.img-carousel-text {
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+	color: #ffffff;
+	font-size: 36px;
+	padding: 16px 32px;
+	border: 1px solid #fff;
+}
+.about-us-job-title {
+	font-size: 26px;
+	font-weight: bold;
+}
+.about-us-item-bg {
+	height: 450px;
+	padding: 30px;
+	border-color: yellow !important;
+	box-shadow: 0 0 10px rgba(232, 236, 241, 1) !important;
+	margin: 20px 5px;
+}
+.about-us-item-bg:hover {
+	box-shadow: 0 0 100px rgba(232, 236, 241, 1) !important;
+}
+.about-us-item-transbox {
+	padding: 30px;
+	margin: 0px;
+	background-color: #000000;
+	border: 1px solid #fff;
+	opacity: 0.8;
+	filter: alpha(opacity=70);
+	height: 390px;
+}
+.about-us-item-transbox h3 {
+	margin: 5%;
+	font-weight: bold;
+	color: #ffffff;
+}
+.about-us-list-group-item {
+	background-color: #000000 !important;
+	font-size: 20px !important;
+	color: #ffffff;
+}
+.table .about-us-list-group-item td {
+	vertical-align: baseline;
+}
+.table .about-us-list-group-item th {
+	text-align: right;
+}
+/* Icons */
+.far {
+	background: #000000;
+	color: #ffffff;
+}
+.far:hover {
+	text-decoration: none;
+}
+.fas {
+	padding: 0px;
+}
+.fab {
+	color: #000000;
+	font-size: 35px;
+}	
+.fa-arrow-alt-circle-up {
+	position: fixed;
+	bottom: 85px;
+    right: 35px; 
+	cursor: pointer; 
+	font-size: 36px;
+}
+.a-link {
+    color: #035104;
+    text-decoration: underline;
+    background-color: transparent;
+}
+.page-footer {
+	background-color: #EDEFF2;
+	padding-top: 15px;
+}
+.content-padding {
+	padding: 15px;
+}
+.row {
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+}
+.team-member {
+	padding-top: 30px;
+	transition-duration: 0ms;
+	transform: translate3d(0px, 0px, 0px);
+}
+.team-photo {
+	border-radius: 100% !important;
+	border-style: solid;
+	border-color: #ffffff;
+	border-width: 2px;
+	height: 150px;
+	width: 150px;
+}
+.dialog-team-member {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn {
+	cursor: pointer;
+}
+
+.btn-hiring-process {
+	color: #ffffff;
+	text-align: center !important;
+	width: 100%;
+	padding: 15px;
+	background-image: linear-gradient(to bottom right, #090979, #00d4ff);
+}
+
+.list-group-item {
+	border: none;
+}
+
+.modal-footer {
+	display: block !important;
+}
+
+.section-gap {
+	padding: 60px 0 !important;
+}
+
+.section-bg-1 {
+	background-color: #fff;
+}
+ 
+.section-bg-2 {
+	background-color: #2F2F31;
+}
+
+.section-bg-3 {
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/water-bg.jpg) center;
+}
+
+.section-bg-4 {
+	background-color: #95a5a6;
+}
+
+.section-bg-5 {
+	background: linear-gradient(rgba(232, 182, 129, 0.7), rgba(0, 0, 0, 0.7)), url(../img/client-bg.jpg) center;
+}
+
+.section-bg-6 {
+	background: linear-gradient(rgba(232, 182, 129, 0.7), rgba(0, 0, 0, 0.7)), url(../img/remotech-sticker.jpg) center;
+}
+
+/* Menu Hover */
+.snip1226 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  cursor: pointer;
+}
+.snip1226 * {
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1226 li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0 1em;
+  overflow: hidden;
+}
+.snip1226 a {
+  padding: 0.3em 0;
+  color: rgba(0, 0, 0, 0.5);
+  position: relative;
+  display: inline-block;
+  letter-spacing: 1px;
+  margin: 0;
+  text-decoration: none;
+}
+.snip1226 a:before,
+.snip1226 a:after {
+  position: absolute;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1226 a:before {
+  bottom: 100%;
+  display: block;
+  height: 3px;
+  width: 100%;
+  content: "";
+  background-color: #fff;
+}
+.snip1226 a:after {
+  padding: 0.3em 0;
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  content: attr(data-hover);
+  color: #fff;
+  white-space: nowrap;
+}
+.snip1226 li:hover a,
+.snip1226 .current a {
+  transform: translateY(100%);
+}
+/* Menu Hover */
+
+/* IDs */
+.career-title {
+	/* background: linear-gradient(rgba(4, 33, 145, 0.7), rgba(242, 242, 242, 0.7)), url(../img/bg-sticker-dot.png) center; */
+	background: linear-gradient(rgba(122, 220, 230, 0.7), rgba(242, 242, 242, 0.7)), url(../img/bg-sticker-dot.png) center;
+	margin-bottom: 0px !important;
+	box-shadow: 0 0 10px rgba(232, 236, 241, 1) !important;
+	z-index: 2;
+}
+.career-content {
+	background: linear-gradient(rgba(242, 242, 242, 0.7), rgba(242, 242, 242, 0.7)), url(../img/bg-sticker-dot.png) center;
+	padding-bottom: 60px;
+}
+.hiring-worker {
+	height: 100%;
+	width: 90%;
+	margin-top: 22px;
+}
+#careerContent {
+	padding: 30px;
+	padding-bottom: 0px;
+	color: #000000;
+}
+#careerContent h4 {
+	font-weight: bold;
+}
+#about-us-item-bg-1 {
+	background-image: url(https://drive.google.com/uc?id=1LXkuKPT1mQRV-360v5p06xtwZLWCqVpr);
+}
+#about-us-item-bg-2 {
+	background-image: url(https://drive.google.com/uc?id=1GirNdgI1DVqqhsdfjbD7JRzEFWMYqLyU);
+}
+#about-us-item-bg-3 {
+	background-image: url(https://drive.google.com/uc?id=129rBAWoZCSXPMfU233mJ0FYFvDi8QvYY);
+}
+#about-us-item-bg-4 {
+	background-image: url(https://drive.google.com/uc?id=1w6XdvWPrXqMQHy3V-jahWxfZmX2EHAQD);
+}
+#about-us-item-bg-5 {
+	background-image: url(https://drive.google.com/uc?id=133Vn3yMWidHgQ3yXebD7-G8NBgk0A4zZ);
+}
+#about-us-item-bg-6 {
+	background-image: url(https://drive.google.com/uc?id=15nxlQqay_YIVVzOg4Wf5odMkDFktlUAb);
+}
+#about-us-item-bg-7 {
+	background-image: url(https://drive.google.com/uc?id=1AkQKY91V1fjkO3gtxQ_k9Uft_uFdX2td);
+}
+#about-us-item-bg-8 {
+	background-image: url(https://drive.google.com/uc?id=1TXVJ2t0v1wzUD5YSxN2kBZnc9DSdp72O);
+}
+#about-us-item-bg-1, #about-us-item-bg-2,
+#about-us-item-bg-3, #about-us-item-bg-4,
+#about-us-item-bg-5, #about-us-item-bg-6,
+#about-us-item-bg-7, #about-us-item-bg-8 {
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#mailTo {
+	color: #3a539b;
+}
+#carouselTeam {
+	margin-bottom: -25px !important;
+}
+
+/* ************************************************************* */
+
+
+ 
+/* *********************************************************** */
+
+/* Media Queries */
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+	.navbar-nav {
+		margin-bottom: 150px;
+	}
+	.nav-mobile {
+		display: block;
+	}
+	.snip1226 {
+		display: none;
+	}
+	.nav-link:hover {
+		background: #000000 !important;
+		color: #ffffff !important;
+		padding-left: 15px !important;
+	}
+	.about-us-item-transbox h3 {
+		font-size: 17px;
+	}
+	
+	.about-us-list-group-item {
+		font-size: 16px !important;
+	}
+	.hiring-worker {
+		display: none;
+	}
+	.btn-hiring-process {
+		width: 100%;
+	}
+	.fieldset-legend {
+		font-size: 1.4em !important;
+	}
+	
+	#logo {
+		display: none !important;
+	}
+	
+	#logoMobileMode {
+		display: block !important;
+	}
+}
+
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+	.navbar {
+		padding: 0rem 1rem;
+		background-color: #000 !important;
+		color: #fff !important;
+	}
+	.navbar-nav {
+		margin-bottom: 160px;
+		padding-left: 15px !important;
+	}
+	.nav-mobile {
+		display: inline-block;
+	}
+	.snip1226 {
+		display: none;
+	}
+	.nav-link:hover {
+		background: #000000 !important;
+		color: #ffffff !important;
+		padding-left: 15px !important;
+	}
+	.fieldset-career {
+		padding: 0 0em 1em 0em !important;
+	}
+	.hiring-worker {
+		display: none;
+	}
+	.img-carousel-item {
+		height: 250px;
+	}
+	.img-carousel-text, .list-group-item {
+		font-size: 16px !important;
+	}
+	.img-carousel-title {
+		top: 35%;
+		left: 20%;
+		right: 20%;
+	}
+	.about-us-item-bg {
+		padding: 15px !important;
+	}
+	.about-us-item-transbox {
+		height: 420px;
+	}
+	.btn-hiring-process {
+		width: 100%;
+	}
+	.about-us-item-bg {
+		height: 375px !important
+	}
+	.about-us-item-transbox {
+		height: 345px !important
+	}
+	.list-group-item {
+		border: none;
+		box-shadow: none !important;
+	}
+	.fieldset-legend {
+		font-size: 1.4em !important;
+	}
+	
+	#logo {
+		display: none !important;
+	}
+	#logoMobileMode {
+		display: block !important;
+		padding: 15px 0 !important;
+	}
+	#careerContent {
+		padding: 15px !important;
+	}
+	
+	.section-bg-5 {
+		background: linear-gradient(rgba(232, 182, 129, 0.7), rgba(0, 0, 0, 0.7)), url(../img/client-bg-mob.jpg) center !important;
+	}
+
+}
+
+
+
+
+
+
+
