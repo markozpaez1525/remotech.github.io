@@ -31,6 +31,10 @@ ul, ol {
 	margin-top: 60px !important;
 }
 
+.pdg-rl-30 {
+	padding: 0 30px;
+}
+
 /* Classes */
 .navbar {
 	padding: 0.8rem 1rem;
