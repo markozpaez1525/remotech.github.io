@@ -41,7 +41,7 @@
 		
 		/* Navigation ScrollTo Click Event */ 
 		$(".navHome").click(function() {
-			slideUpDown(document.getElementById('myHome'), -100);
+			slideUpDown(document.getElementById('myHome'), -1000);
 		});
 		$(".navAbout").click(function() {
 			slideUpDown(document.getElementById('myAboutUs'), -120);
@@ -59,6 +59,7 @@
 			$('#email, #name, #message').val('');
 			$('.badge-warning').hide();
 		});
+		
 		
 		/*Arrow up navigation*/
 		$(".fa-arrow-alt-circle-up").hide();
@@ -132,21 +133,38 @@
 		$('a[href="#tab1primary"]').click();
 		$('li a[href="#tab1primary"]').parent().addClass('active');
 		
-		$('a[href="#tab1primary"]').click(function() {
-			$('li a[href="#tab2primary"], li a[href="#tab3primary"]').parent().removeClass('active');
+		function tabpanel1(){
+			$('li a[href="#tab2primary"]').parent().removeClass('active');
 			$('li a[href="#tab1primary"]').parent().addClass('active');
-		});
+		}
 		
-		$('a[href="#tab2primary"]').click(function() {
-			$('li a[href="#tab1primary"], li a[href="#tab3primary"]').parent().removeClass('active');
+		function tabpanel2(){
+			$('li a[href="#tab1primary"]').parent().removeClass('active');
 			$('li a[href="#tab2primary"]').parent().addClass('active');
+		}
+		
+		// Click Tab-1
+		$('a[href="#tab1primary"]').click(function() {
+			tabpanel1();
+		});
+		// Click Tab-2
+		$('a[href="#tab2primary"]').click(function() {
+			tabpanel2();
 		});
 		
-		$('a[href="#tab3primary"]').click(function() {
-			$('li a[href="#tab1primary"], li a[href="#tab2primary"]').parent().removeClass('active');
-			$('li a[href="#tab3primary"]').parent().addClass('active');
-		});
 		
+		// Button for every Job Position
+		$(".btn-job-position-1").click(function() {
+			tabpanel1();
+			$('a[href="#tab1primary"]').click();
+			slideUpDown(document.getElementById('myCareers'), 1000);
+			
+		});
+		$(".btn-job-position-2").click(function() {
+			tabpanel2();
+			$('a[href="#tab2primary"]').click();
+			slideUpDown(document.getElementById('myCareers'), 1000);
+		});
 		
 		
 		/* Footer */ 
