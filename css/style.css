@@ -230,12 +230,37 @@ ul, ol {
 	cursor: pointer;
 }
 
+.btn-general,
 .btn-hiring-process {
-	color: #ffffff;
+	color: #fff;
+}
+
+.btn-general:hover,
+.btn-hiring-process:hover {
+	color: #fff;
+}
+
+.btn-general {
+	border: none;
+	border-bottom: 5px solid #f4c045;
+	background-image: linear-gradient(to bottom right, #000, #000);
+}
+
+.btn-hiring-process {
 	text-align: center !important;
 	width: 100%;
 	padding: 15px;
-	background-image: linear-gradient(to bottom right, #090979, #00d4ff);
+	border: none;
+	border-left: 10px solid #f4c045;
+	border-right: 10px solid #f4c045;
+	/* background-image: linear-gradient(to bottom right, #090979, #00d4ff); */
+	background-image: linear-gradient(to bottom right, #000, #000);
+}
+
+.btn-hiring-process:hover {
+	border: none;
+	border-left: 10px solid #f4c045;
+	border-right: 10px solid #f4c045;
 }
 
 .list-group-item {
@@ -333,7 +358,7 @@ ul, ol {
 /* IDs */
 .career-title {
 	/* background: linear-gradient(rgba(4, 33, 145, 0.7), rgba(242, 242, 242, 0.7)), url(../img/bg-sticker-dot.png) center; */
-	background: linear-gradient(rgba(122, 220, 230, 0.7), rgba(242, 242, 242, 0.7)), url(../img/bg-sticker-dot.png) center;
+	background: linear-gradient(rgba(255, 243, 205, 0.7), rgba(242, 242, 242, 0.7)), url(../img/bg-sticker-dot.png) center;
 	margin-bottom: 0px !important;
 	box-shadow: 0 0 10px rgba(232, 236, 241, 1) !important;
 	z-index: 2;
@@ -392,6 +417,93 @@ ul, ol {
 #carouselTeam {
 	margin-bottom: -25px !important;
 }
+
+/* PANEL */
+.panel, .with-nav-tabs, .panel-heading{
+    padding: 5px 5px 0 5px;
+}
+.panel, .with-nav-tabs, .nav-tabs{
+	/* border-bottom: none; */
+}
+
+.panel, .with-nav-tabs, .nav-justified{
+	margin-bottom: -1px;
+}
+.panel-primary .panel-heading {
+    color: #000;
+
+}
+.panel-heading {
+    padding: 0px 15px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+	background-image: linear-gradient(to bottom right, #fff, #fff);
+	box-shadow: 0 0 20px 6px rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.panel.with-nav-tabs .nav-tabs {
+    border-bottom: none;
+}
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+/*** PANEL PRIMARY ***/
+#panelBody {
+	border: 1px solid transparent;
+	border-color: #f4c045;
+}
+
+.tab-content {
+	padding: 30px 30px;
+}
+
+.nav li a {
+    position: relative;
+    display: block;
+    /* padding: 10px 15px; */
+}
+.nav-tabs li a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+	padding: 20px 15px;
+}
+ul.nav.nav-tabs:before {
+	display: table;
+    content: " ";
+}
+
+.with-nav-tabs.panel-primary .nav-tabs > li > a,
+.with-nav-tabs.panel-primary .nav-tabs > li > a:hover,
+.with-nav-tabs.panel-primary .nav-tabs > li > a:focus {
+    color: #000;
+}
+.with-nav-tabs.panel-primary .nav-tabs > .open > a,
+.with-nav-tabs.panel-primary .nav-tabs > .open > a:hover,
+.with-nav-tabs.panel-primary .nav-tabs > .open > a:focus,
+.with-nav-tabs.panel-primary .nav-tabs > li > a:hover,
+.with-nav-tabs.panel-primary .nav-tabs > li > a:focus {
+	color: #fff;
+	background-color: #000;
+	border-color: transparent;
+}
+.with-nav-tabs.panel-primary .nav-tabs > li.active > a,
+.with-nav-tabs.panel-primary .nav-tabs > li.active > a:hover,
+.with-nav-tabs.panel-primary .nav-tabs > li.active > a:focus {
+	color: #fff;
+	background-color: #000;
+	border-color: #428bca;
+	border-bottom-color: transparent;
+	border-left: 5px solid #f4c045;
+	border-right: 5px solid #f4c045;
+	/* box-shadow: 0px -5px 18px #888888; */
+} 
+ 
 
 /* ************************************************************* */
 

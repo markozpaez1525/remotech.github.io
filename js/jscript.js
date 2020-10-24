@@ -128,6 +128,26 @@
         },1000);
 		
 		
+		/* Tab - Job Position */ 
+		$('a[href="#tab1primary"]').click();
+		$('li a[href="#tab1primary"]').parent().addClass('active');
+		
+		$('a[href="#tab1primary"]').click(function() {
+			$('li a[href="#tab2primary"], li a[href="#tab3primary"]').parent().removeClass('active');
+			$('li a[href="#tab1primary"]').parent().addClass('active');
+		});
+		
+		$('a[href="#tab2primary"]').click(function() {
+			$('li a[href="#tab1primary"], li a[href="#tab3primary"]').parent().removeClass('active');
+			$('li a[href="#tab2primary"]').parent().addClass('active');
+		});
+		
+		$('a[href="#tab3primary"]').click(function() {
+			$('li a[href="#tab1primary"], li a[href="#tab2primary"]').parent().removeClass('active');
+			$('li a[href="#tab3primary"]').parent().addClass('active');
+		});
+		
+		
 		
 		/* Footer */ 
 		var dt = new Date();
