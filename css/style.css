@@ -253,7 +253,6 @@ ul, ol {
 	border: none;
 	border-left: 10px solid #f4c045;
 	border-right: 10px solid #f4c045;
-	/* background-image: linear-gradient(to bottom right, #090979, #00d4ff); */
 	background-image: linear-gradient(to bottom right, #000, #000);
 }
 
@@ -261,6 +260,10 @@ ul, ol {
 	border: none;
 	border-left: 10px solid #f4c045;
 	border-right: 10px solid #f4c045;
+}
+
+.tooltip {
+	background-color: #f4c045;
 }
 
 .list-group-item {
