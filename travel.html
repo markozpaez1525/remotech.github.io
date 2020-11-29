@@ -1,0 +1,497 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Google Font -->
+	<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet">
+	
+    <!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://kit.fontawesome.com/2026b02bf3.js" crossorigin="anonymous"></script>
+	
+	<!-- Website Title -->
+	<link rel="icon" href="img/img-title-icon.png"/>
+    <title>Remotech Outsourcing Services</title>
+	
+	<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top fixed-top">
+		<div style="display:none;" id="logoMobileMode">
+			<img src="img/img-banner-mob-logo.png" class="img-fluid" alt="Logo">
+		</div>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="my-1 mx-2 navbar-close">X</span>
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<div class="col-lg-4">
+				<ul id="logo" class="navbar-nav">
+					<li class="nav-item">
+						<a href="index.html"><img id="" src="img/img-banner-logo.png" class="img-fluid" alt="Logo"></a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-lg-8 float-right">
+				<!-- Desktop Menu -->
+				<ul class="snip1226">
+					<li><a class="navHome" data-hover="Home" href="index.html">Home</a></li>
+					<li><a class="navAbout" data-hover="About Us" href="index.html">About Us</a></li>
+					<li><a class="navCareers" data-hover="Careers" href="index.html">Careers</a><span class="badge badge-danger ml-1">2</span></li>
+					<li><a class="navTeam" data-hover="Team" href="index.html">Team</a></li>
+					<li><a class="navTravel" data-hover="Travel" href="travel.html">Travel</a></li>
+					<li data-toggle="modal" data-target="#EmailCaptureModal"><a class="navContact" data-hover="Contact">Contact</a></li>
+				</ul>
+				<!-- Tablet and Mobile Menu -->
+				<ul class="navbar-nav ml-auto nav-mobile">
+					<li class="nav-item active">
+						<a class="navHome nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="navAbout nav-link" href="index.html">About Us</a>
+					</li>
+					<li class="nav-item">
+						<a class="navCareers nav-link" href="index.html">Careers<span class="badge badge-danger ml-1">2</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="navTeam nav-link" href="index.html">Team</a>
+					</li>
+					<li class="nav-item">
+						<a class="navTravel nav-link" href="travel.html">Travel</a>
+					</li>
+					<li class="nav-item" data-toggle="modal" data-target="#EmailCaptureModal">
+						<a class="navContact nav-link">Message</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+  </head>
+  <body>
+	
+	<div class="container-fluid"> 
+	
+	  <!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v4.0'
+          });
+        };
+
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+		<!-- Your customer chat code -->
+		<div class="fb-customerchat"
+			attribution=setup_tool
+			page_id="103614264383895">
+		</div>
+		
+		<section class="section-gap">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-sm-12 col-md-3 col-lg-4"> </div>
+					<div class="col-12 col-sm-12 col-md-3 col-lg-4 text-center">
+						<h1>Bon Voyage</h1>
+						<p>
+							We are blessed to have a client giving us a travel incentives. Let's Go! Travel with us as we traverse all the adventure from the Philippines and throughout the world.
+						</p>
+					</div>
+					<div class="col-12 col-sm-12 col-md-3 col-lg-4"> </div>
+				</div>
+				<div class="row mt-40">
+					<div class="col-lg-12">
+					<div class="card-deck">
+					  <div class="card">
+						<img class="card-img-top" src="img/g-1.jpg" alt="Guimaras">
+						<div class="card-body">
+						  <h5 class="card-title">Guimaras Team Building</h5>
+						  <p class="card-text">This was an exciting 3 days 2 nights land tour and island-hopping around Guimaras.</p>
+						</div>
+						<div class="card-footer text-center">
+						  <button class="btn btn-general btn-lg" data-toggle="modal" data-target="#GuimarasTour">View Gallery</button>
+						</div>
+					  </div>
+					  <div class="card">
+						<img class="card-img-top" src="img/ml-1.jpg" alt="Malaysia">
+						<div class="card-body">
+						  <h5 class="card-title">Malaysia Team Building</h5>
+						  <p class="card-text">We explore the city of Kuala Lumpur and Genting Highlands</p>
+						</div>
+						<div class="card-footer text-center">
+						  <button class="btn btn-general btn-lg" data-toggle="modal" data-target="#MalaysiaTour">View Gallery</button>
+						</div>
+					  </div>
+					  <div class="card">
+						<img class="card-img-top" src="img/airplane.jpg" alt="Soon">
+						<div class="card-body">
+						  <h5 class="card-title">What's Next?</h5>
+						  <p class="card-text">Like us on facebook to get more updates about our future trips.</p>
+						</div>
+						<div class="card-footer text-center">
+						  <button class="btn btn-general btn-lg">View Gallery</button>
+						</div>
+					  </div>
+					</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!-- **************Modal Picture Gallery - Guimaras********* -->
+		<!-- The Modal -->
+		<div class="modal" id="GuimarasTour">
+		  <div class="modal-dialog modal-dialog-gallery">
+			<div class="modal-content">
+
+			  <!-- Modal Header -->
+			  <div class="modal-header">
+				<h4 class="modal-title">Guimaras Team Building</h4>
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+			  </div>
+
+			  <!-- Modal body -->
+			  <div class="modal-body center section-bg-2">
+				<div id="carouselIndicators" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+						<li data-target="#carouselIndicators" data-slide-to="1"></li>
+						<li data-target="#carouselIndicators" data-slide-to="2"></li>
+						<li data-target="#carouselIndicators" data-slide-to="3"></li>
+					</ol>
+					<div class="carousel-inner text-center">
+						<!-- Carousel Active -->
+						<div class="carousel-item active"><img src="img/g-1.jpg" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/g-2.jpg" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/g-3.jpg" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/g-4.jpg" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/land-tour.png" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/holy-family.png" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/lt-1.jpg" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/lt-2.jpg" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/lt-3.jpg" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/lt-4.jpg" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/lt-5.jpg" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/lt-6.jpg" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/lt-7.jpg" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/lt-8.jpg" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/wind.png" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/w-1.jpg" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/w-2.jpg" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/w-3.jpg" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/w-4.jpg" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/w-5.jpg" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/reyleys.png" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/rl-1.jpg" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/rl-2.jpg" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/rl-3.jpg" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/rl-4.jpg" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/rl-5.jpg" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/trappist.png" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/tp-1.jpg" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/tp-2.jpg" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/tp-3.jpg" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/tp-4.jpg" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/tp-5.jpg" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/guisi.png" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/gs-1.jpg" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/gs-2.jpg" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/gs-3.jpg" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/gs-4.jpg" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/gs-5.jpg" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/island-hopping.png" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/ih-1.jpg" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/ih-2.jpg" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/ih-3.jpg" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/ih-4.jpg" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/ih-5.jpg" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/ih-6.jpg" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/ih-7.jpg" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/ih-8.jpg" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/ih-9.jpg" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/ih-10.jpg" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+					</div>
+					<a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only text-success">Previous</span>
+					</a>
+					<a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only text-success">Next</span>
+					</a>
+				</div>
+			  </div>
+			  <!-- Modal body -->
+			</div>
+		  </div>
+		</div>
+		<!-- The Modal -->
+		<!-- **************Modal Picture Gallery - Guimaras********* -->
+		
+		
+		<!-- **************Modal Picture Gallery - Malaysia********* -->
+		<!-- The Modal -->
+		<div class="modal" id="MalaysiaTour">
+		  <div class="modal-dialog modal-dialog-gallery">
+			<div class="modal-content">
+
+			  <!-- Modal Header -->
+			  <div class="modal-header">
+				<h4 class="modal-title">Malaysia Team Building</h4>
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+			  </div>
+
+			  <!-- Modal body -->
+			  <div class="modal-body center section-bg-2">
+				<div id="malaysiaCarousel" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#malaysiaCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#malaysiaCarousel" data-slide-to="1"></li>
+						<li data-target="#malaysiaCarousel" data-slide-to="2"></li>
+						<li data-target="#malaysiaCarousel" data-slide-to="3"></li>
+					</ol>
+					<div class="carousel-inner text-center">
+						<!-- Carousel Active -->
+						<div class="carousel-item active"><img src="img/ml-2.jpg" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/ml-3.jpg" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/ml-4.jpg" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/ml-5.jpg" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/ml-6.jpg" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/ml-7.jpg" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/ml-8.jpg" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/ml-9.jpg" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/ml-10.jpg" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/ml-11.jpg" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/ml-12.jpg" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/ml-13.jpg" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/ml-14.jpg" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/ml-15.jpg" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/ml-16.jpg" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/ml-17.jpg" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/ml-18.jpg" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/ml-19.jpg" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/ml-20.jpg" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+						<div class="carousel-item"><img src="img/ml-21.jpg" class="img-fluid img-carousel-item-gallery" alt="Carousel"></div>
+					</div>
+					<a class="carousel-control-prev" href="#malaysiaCarousel" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only text-success">Previous</span>
+					</a>
+					<a class="carousel-control-next" href="#malaysiaCarousel" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only text-success">Next</span>
+					</a>
+				</div>
+			  </div>
+			  <!-- Modal body -->
+			</div>
+		  </div>
+		</div>
+		<!-- The Modal -->
+		<!-- **************Modal Picture Gallery - Malaysia********* -->
+		
+		<!-- Contact -->
+		<section class="section-gap section-bg-4">
+			<div id="myContact"> 
+				<div class="row"> 
+					<div class="col-12 col-sm-12 col-md-6 col-lg-4"> 
+						<i class="fas fa-envelope"></i><span class="font-weight-bold ml-1">Send Full Resume and Cover Letter to:</span><br>
+						<a href="mailto:remotechiloilo@gmail.com?subject=New Applicant from PH for: [ please indicate position here ]&cc=larry_ferrett@sparco.com"><span id="mailTo" class="font-weight-bold">remotechiloilo@gmail.com</span><br><span id="mailTo" class="font-weight-bold">cc: larry_ferrett@sparco.com</span></a>
+						<br><br>
+						<!-- Social Media -->
+						<span class="font-weight-bold">Follow Us:</span><br>
+						<a href="https://fb.me/remotechOSiloilo" target="_blank"><i class="fab fa-facebook-square"></i></a>
+						<a href="#"><i class="fab fa-twitter-square ml-1"></i></a>
+						<a href="#"><i class="fab fa-linkedin ml-1"></i></a>
+						<br><br>
+					</div>
+					<div class="col-12 col-sm-12 col-md-6 col-lg-3"> 
+						
+						<i class="fas fa-phone-square"></i><span class="font-weight-bold">&nbsp;Call Us:</span><br>
+						<span>Globe: (033)-501-0491</span><br>
+						<span>PLDT: (033)-327-4262</span>
+						
+						<br><br>
+						
+						<i class="fas fa-map-marked-alt"></i><span class="font-weight-bold">&nbsp;Office Address:</span><br>
+						<span>Remotech</span><br>
+						<span>3rd Floor, AVL Building,</span><br>
+						<span>Democracia Street,</span><br>
+						<span>Jaro, Iloilo City, 5000</span>
+						
+						<br><br>
+						
+					</div>
+					<div class="col-12 col-sm-12 col-md-12 col-lg-5"> 
+						<i class="fas fa-map-marker-alt"></i><span class="font-weight-bold">&nbsp;Office Location Map:</span><br><br>
+						<iframe id="googleMap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d980.0233284952237!2d122.55733526216011!3d10.727285902124017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33aee4df23d3d63f%3A0x2d99b5a068d4d526!2sAVL%20Auto%20Supply!5e0!3m2!1sen!2sph!4v1583106424538!5m2!1sen!2sph" width="100%" height="200" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Contact -->
+		
+		<!-- Footer -->
+		<footer class="page-footer font-small bg-dark text-white">
+		  <!-- Copyright -->
+			<div class="footer-copyright text-center py-3">Copyright © <span id="footerYear" class="ml-1"></span>&nbsp;Remotech Outsourcing Services. All Rights Reserved.</div>
+		  <!-- Copyright -->
+        
+		</footer>
+		<!-- Footer -->
+		
+		
+		<i class="fas fa-arrow-alt-circle-up"></i>
+		
+	</div>
+	<!-- Container Fluid -->
+	
+	
+	<!-- Email Form -->
+	<form class="gform pure-form pure-form-stacked" method="POST" data-email="remotechiloilo@gmail.com"
+			  action="https://script.google.com/macros/s/AKfycbyK1OfaOF2kGUwnW6R4EnuNVd6g5qzIfKH56bfZGbmiSc1wf5dl/exec">
+				<!-- change the form action to your script url -->
+	
+	<div class="form-elements">
+	
+	<!-- The Modal -->
+	<div class="modal" id="EmailCaptureModal">
+	  <div class="modal-dialog">
+		<div class="modal-content">
+
+		  <!-- Modal Header -->
+		  <div class="modal-header">
+			<h4 class="modal-title">Write Us a Message below</h4>
+			<button type="button" class="close" data-dismiss="modal">&times;</button>
+		  </div>
+
+		  <!-- Modal body -->
+		  <div class="modal-body center">
+			<div class="form-group">
+			
+				<input type="text" class="form-control" id="email" name="email" type="email" value="" required placeholder="*Your Email Address">
+				<span class="email-invalid badge badge-pill badge-warning"" style="display:none">Must be a valid email address</span>
+
+			</div>
+			<div class="form-group">
+			
+				<input type="text" class="form-control" id="name" name="name" type="name" value="" required placeholder="*Your Full Name">
+				<span class="blank-name badge badge-pill badge-warning"" style="display:none">Please enter your name</span>
+
+			</div>
+			<div class="form-group">
+			
+				<textarea id="message" name="message" class="form-control" rows="8" placeholder="*Your Message"></textarea>
+				<span class="blank-message badge badge-pill badge-warning"" style="display:none">Please enter your message</span>
+
+			</div>
+			<div class="form-group">
+			
+				<span class="fa fa-lock"></span><span id="badge-confidential">Your information will remain<span class="badge badge-danger">CONFIDENTIAL</span></span>					
+			</div>
+		  </div>
+
+		  <!-- Modal footer -->
+		  <div class="modal-footer">
+			<div>
+				<button id="btnSendMessage" class="btn btn-lg btn-block btn-outline-dark">Send</button><br>
+
+			</div>					
+
+		  </div>
+		  <!-- Modal footer -->
+
+		</div>
+	  </div>
+	</div>
+	<!-- The Modal -->
+	
+	</div>
+	<!-- Form Elements -->
+	
+	<!-- Thank you message form -->
+	<div class="thankyou_message" style="display:none;"></div>
+
+	
+	</form>
+	<!-- Email Form -->
+	
+	<!-- Success Send Message -->
+	<div id="modalSuccess" class="modal">
+
+		<div class="modal-dialog"> 
+			<!-- Modal content -->
+			<div class="alert alert-success">
+			  <strong><span>Hey,</span><span class="ml-1" id="spnSenderName"></span>!</strong><span class="ml-1">Thank you for sending your message!</span>
+			</div>
+		</div>
+
+	</div>
+	<!-- Success Send Message -->
+
+	<!-- Emoji Modal -->
+	<div id="modalTeamMember" class="modal">
+	  <div class="modal-dialog">
+		<div class="modal-content">
+		<!-- Modal Header -->
+		<div class="modal-header">
+		<img id="" src="img/img-banner-logo.png" class="img-fluid" alt="Logo">
+		<button type="button" class="close" data-dismiss="modal">&times;</button>
+		</div>
+		<div id="teamJob1"> 
+			<div class="content-padding"> 
+			<div class="text-center">
+				<h3>Meet <span class="fa fa-quote-left"></span>Mark<span class="fa fa-quote-right"></span></h3><br>
+				<div class="dialog-team-member"><img id="" src="img/team-member-1.png" class="img-fluid" alt="TeamMember"> </div><br><br>
+				<span>- <em>Account Executive</em></span><br><br>
+			</div>
+			<div class=""> 
+				<p>He is expert in Lead Capture, searching opportunities in a different sites and input into the system.</p>
+			</div>	
+			<div class=""> 
+				<p>"Life can be meaningful if you know how to be grateful"</p>
+			</div>	
+				
+			</div>
+			
+		</div>
+		<div id="teamJob2"> 
+			<img id="" src="img/team-member.png" class="img-fluid" alt="TeamMember">
+			<span>Team 2</span>
+		</div>
+		<div id="teamJob3"> 
+			<img id="" src="img/team-member.png" class="img-fluid" alt="TeamMember">
+			<span>Team 3</span>
+		</div>
+		
+		</div>
+	  </div>
+	</div>
+	<!-- Emoji Modal -->
+	
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+	<!-- Optional JavaScript -->
+	<script type="text/javascript"src="js/jscript.js"></script>
+	
+	 <!-- Submit the Form to Google Using "AJAX" -->
+	<script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
+  
+		
+  </body>
+</html>

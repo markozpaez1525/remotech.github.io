@@ -118,6 +118,10 @@ ul, ol {
 	height: 500px;
 	box-shadow: 0 0 100px rgba(0, 0, 0, 1);
 }
+.img-carousel-item-gallery {
+	width: 850px;
+	height: 550px;
+}
 .img-carousel-title {
 	position: absolute;
 	top: 30%;
@@ -200,7 +204,8 @@ ul, ol {
 }
 .page-footer {
 	background-color: #EDEFF2;
-	padding-top: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 .content-padding {
 	padding: 15px;
@@ -270,6 +275,11 @@ ul, ol {
 	border: none;
 }
 
+.modal-dialog-gallery {
+	max-width: 900px;
+	height: 700px !important;
+}
+
 .modal-footer {
 	display: block !important;
 }
@@ -322,7 +332,7 @@ ul, ol {
 }
 .snip1226 a {
   padding: 0.3em 0;
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 1);
   position: relative;
   display: inline-block;
   letter-spacing: 1px;
@@ -502,7 +512,6 @@ ul.nav.nav-tabs:before {
 	border-right: 5px solid #f4c045;
 	/* box-shadow: 0px -5px 18px #888888; */
 } 
- 
 
 /* ************************************************************* */
 
