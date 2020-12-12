@@ -73,7 +73,15 @@ ul, ol {
     font-size: 80%;
     line-height: 1.2;
 }
-
+.fieldset-hiring-process{
+    padding: 1em 1.4em 1.4em 1.4em !important;
+    margin: 0 0 1.5em 0;
+	box-shadow: 0 0 20px 6px rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../img/hiring-process-bg.jpg) center;
+	background-size: cover;
+	border-radius: 10px;
+	
+}
 .fieldset-career{
     padding: 0 1.4em 1.4em 1.4em !important;
     margin: 0 0 1.5em 0;
