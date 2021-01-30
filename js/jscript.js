@@ -93,6 +93,53 @@
 			//$('#modalTeamMember').modal();
 			
 		}
+		
+		// Hide/Show Team Member Magazine
+		function hideShowMag(num){
+			for (i = 1; i <= 20; i++) {
+			  $('#mag-'+i+'').hide();
+			}
+			
+			$('#mag-'+num+'').show();
+		}
+		
+		//Click Team Member Magazine
+		$('#rMag-1').click(function(t) {
+			hideShowMag("1");
+		});
+		$('#rMag-2').click(function(t) {
+			hideShowMag("2");
+		});
+		$('#rMag-3').click(function(t) {
+			hideShowMag("3");
+		});
+		$('#rMag-4').click(function(t) {
+			hideShowMag("4");
+		});
+		$('#rMag-5').click(function(t) {
+			hideShowMag("5");
+		});
+		$('#rMag-6').click(function(t) {
+			hideShowMag("6");
+		});
+		$('#rMag-7').click(function(t) {
+			hideShowMag("7");
+		});
+		$('#rMag-8').click(function(t) {
+			hideShowMag("8");
+		});
+		$('#rMag-9').click(function(t) {
+			hideShowMag("9");
+		});
+		$('#rMag-10').click(function(t) {
+			hideShowMag("10");
+		});
+		$('#rMag-11').click(function(t) {
+			hideShowMag("11");
+		});
+		
+		
+		
 		// Click Team Member
 		var altVal = "";
 		$('#teamMember1').click(function(t) {
@@ -171,6 +218,7 @@
 		var dt = new Date();
 		$("#footerYear").text(dt.getFullYear());
 		
+		/*Reload Page every 30 minutes*/
 		setTimeout(function() {
 		  location.reload();
 		}, 1800000);

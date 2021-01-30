@@ -130,6 +130,10 @@ ul, ol {
 	width: 850px;
 	height: 550px;
 }
+.img-carousel-item-mag {
+	width: 500px;
+	height: 600px;
+}
 .img-carousel-title {
 	position: absolute;
 	top: 30%;
@@ -283,9 +287,18 @@ ul, ol {
 	border: none;
 }
 
+.card {
+	cursor: pointer;
+}
+
 .modal-dialog-gallery {
 	max-width: 900px;
 	height: 700px !important;
+}
+
+.modal-dialog-gallery-mag {
+	max-width: 500px;
+	height: 650px !important;
 }
 
 .modal-footer {
