@@ -204,13 +204,13 @@
 		$(".btn-job-position-1").click(function() {
 			tabpanel1();
 			$('a[href="#tab1primary"]').click();
-			slideUpDown(document.getElementById('myCareers'), 1000);
+			slideUpDown(document.getElementById('myCareers'), 800);
 			
 		});
 		$(".btn-job-position-2").click(function() {
 			tabpanel2();
 			$('a[href="#tab2primary"]').click();
-			slideUpDown(document.getElementById('myCareers'), 1000);
+			slideUpDown(document.getElementById('myCareers'), 800);
 		});
 		
 		
