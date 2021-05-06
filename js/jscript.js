@@ -137,6 +137,9 @@
 		$('#rMag-11').click(function(t) {
 			hideShowMag("11");
 		});
+		$('#rMag-12').click(function(t) {
+			hideShowMag("12");
+		});
 		
 		
 		
