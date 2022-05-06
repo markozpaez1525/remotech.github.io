@@ -203,17 +203,17 @@
 		});
 		
 		
-		// Button for every Job Position
+		// Button at the top page for every Job Hiring
 		$(".btn-job-position-1").click(function() {
 			tabpanel1();
 			$('a[href="#tab1primary"]').click();
-			slideUpDown(document.getElementById('myCareers'), 800);
+			slideUpDown(document.getElementById('myCareers'), 100);
 			
 		});
 		$(".btn-job-position-2").click(function() {
 			tabpanel2();
 			$('a[href="#tab2primary"]').click();
-			slideUpDown(document.getElementById('myCareers'), 800);
+			slideUpDown(document.getElementById('myCareers'), 100);
 		});
 		
 		
