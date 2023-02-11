@@ -1,2 +1,2 @@
-# remotechiloilo.github.io
+# remotech.github.io
  Remotech Outsourcing Services
